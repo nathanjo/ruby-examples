@@ -85,19 +85,27 @@ This should be a commandline application that can accept input.
 Examples:
 
 Range : 10,
+
 Set Number : [10 , 1, -20 , 14, 99, 136, 19, 20, 117, 22 , 93, 120, 131]
+
 Result: {[ -20 ], [ 1, 10 ], [ 14, 19, 20 ], [ 22 ], [ 93, 99 ], [ 117, 120 ], [ 131, 136 ]}
 
 Range : 15,
+
 Set Number : [10 , 1, -20 , 14, 99, 136, 19, 20, 117, 22 , 93, 120, 131]
+
 Result: {[ -20 ], [ 1, 10, 14 ], [ 19, 20, 22 ], [ 93, 99 ], [ 117, 120 ] [ 131 ] [ 136 ]}
 
 Range : 15 ,
+
 Set Number : [10 1 A, 14, 99, 133, 19, 20, 117, 22, 93, 120, 131]
+
 Result: throw InvalidArgumentException
 
 Range : NULL,
+
 Set Number : []
+
 Result: [Empty Set]
 
 ## Usage
@@ -186,7 +194,7 @@ Develop an solution that would post a variable to this url: http://example.com/s
 Example:
 
 ```
-./examples/search/search.rb "jetstar"
+./examples/search/search.rb "jetair"
 ```
 
 ## Screenshots
@@ -199,7 +207,7 @@ Example:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/examples.
+Bug reports and pull requests are welcome on GitHub at https://github.com/nathanjo/ruby-examples.
 
 
 ## License
